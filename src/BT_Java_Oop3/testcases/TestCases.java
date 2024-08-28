@@ -3,9 +3,6 @@ package BT_Java_Oop3.testcases;
 import BT_Java_Oop3.common.BaseTest;
 import BT_Java_Oop3.common.Constants;
 
-import javax.sound.midi.Soundbank;
-import java.sql.SQLOutput;
-
 public class TestCases extends BaseTest {
 
     public void TC_Login(){
