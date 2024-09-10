@@ -9,10 +9,12 @@ public class Person {
     private String address;
     private String phone;
 
+    //hàm xây dựng không tham số
     public Person() {
 
     }
 
+    //Hàm xây dựng có tham số
     public Person(String name, int age, String gender, String address, String phone) {
         this.name = name;
         this.age = age;
@@ -22,6 +24,7 @@ public class Person {
     }
 
     public String getName() {
+
         return name;
     }
 
@@ -30,14 +33,17 @@ public class Person {
     }
 
     public String getGender() {
+
         return gender;
     }
 
     public String getAddress() {
+
         return address;
     }
 
     public String getPhone() {
+
         return phone;
     }
 
@@ -55,7 +61,7 @@ public class Person {
         System.out.println("Điện thoại = " + pe.getPhone());
     }
 
-    public void BasicPersonInfor(Person pe1){
+    public void BasicPersonInfor(Person pe1) {
         System.out.println("Tên = " + pe1.getName());
         System.out.println("Tuổi = " + pe1.getAge());
         System.out.println("Địa chỉ = " + pe1.getAddress());

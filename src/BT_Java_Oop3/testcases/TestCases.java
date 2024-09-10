@@ -5,7 +5,7 @@ import BT_Java_Oop3.common.Constants;
 
 public class TestCases extends BaseTest {
 
-    public void TC_Login(){
+    public void TC_Login() {
         //gọi hàm createDriver()
         createDriver();
         //Steps
@@ -17,7 +17,7 @@ public class TestCases extends BaseTest {
         closeDriver();
     }
 
-    public void TC_AddCatagory(){
+    public void TC_AddCatagory() {
 
         createDriver();
         System.out.println("1. click on the Products menu");
