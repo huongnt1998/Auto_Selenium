@@ -6,9 +6,8 @@ public class Company {
 
     public static void main(String[] args) {
         //Tạo đối tượng Person
-        Person person = new Person();
-        Person person2 = person.SetPerson("Lê Văn X", 20, "Đống Đa, Hà Nội", "Nam", "1234567890");
-        person.BasicPersonInfor(person2);
+        Person person = new Person("Lê Văn X", 20, "Đống Đa, Hà nội", "Nam", "1234567890");
+        person.BasicPersonInfor(person);
 
     }
 }
